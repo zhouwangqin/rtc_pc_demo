@@ -186,8 +186,8 @@ void CMFCApplication1Dlg::OnDestroy()
 void CMFCApplication1Dlg::OnBnClickedBtnStart()
 {
 	// TODO: 在此添加控件通知处理程序代码
-	//setServerIp("81.69.253.187", 8443);
-	setServerIp("1.116.231.35", 8443);
+	setServerIp("81.69.253.187", 8443);
+	//setServerIp("1.116.231.35", 8443);
 	setFrameRate(6);
 	setLocalVideo(local_video_func);
 	setRemoteVideo(remote_video_func);
@@ -203,7 +203,7 @@ void CMFCApplication1Dlg::OnBnClickedBtnStop()
 void CMFCApplication1Dlg::OnBnClickedBtnJoin()
 {
 	// TODO: 在此添加控件通知处理程序代码
-	joinRoom("111111");
+	joinRoom("100");
 }
 
 void CMFCApplication1Dlg::OnBnClickedBtnLeave()
